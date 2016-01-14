@@ -20,6 +20,37 @@ January 14, 2016
 
 ## Examples
 
+### Our Data
+This data array becomes our employees variable in our examples.
+
+    'use strict';
+
+    class Person {
+        constructor(firstName, lastName, gender, positions) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.gender = gender;
+            this.positions = positions;
+        }
+    }
+
+    module.exports = {
+        data: [
+            new Person("Michael", "Scott", "Male", ["Regional Manager"]),
+            new Person("Dwight", "Schrute", "Male", ["Sales Rep", "Assistant to the Regional Manager", "Regional Manager"]),
+            new Person("Jim", "Halpert", "Male", ["Sales Rep", "Co-Regional Manager", "Assistant to the Regional Manager", "Regional Manager"]),
+            new Person("Pam", "Beesly", "Female", ["Receptionist", "Sales Rep", "Office Administrator"]),
+            new Person("Ryan", "Howard", "Male", ["Temporary Worker", "Sales Rep", "Vice President of Sales"]),
+            new Person("Andy", "Bernard", "Male", ["Sales Rep", "Regional Manager"]),
+            new Person("Robert", "California", "Male", ["Chief Executive Officer"]),
+            new Person("Angela", "Martin", "Female", ["Accountant"]),
+            new Person("Kelly", "Kapoor", "Female", ["Customer Service Rep"]),
+            new Person("Oscar", "Martinez", "Male", ["Accountant"]),
+            new Person("Darryl", "Philbin", "Male", ["Warehouse Foreman"]),
+            new Person("Erin", "Hannon", "Female", ["Receptionist"])
+        ]
+    }
+
 ### Examples: Grouping by Property
 **Code:**
 
